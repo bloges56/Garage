@@ -10,5 +10,10 @@ namespace Garage
         {
             Console.WriteLine($"The {MainColor} Zero darts away.");
         }
+
+        public override void Turn(string direction)
+        {
+            Console.WriteLine($"The motorcycle drifts to the {direction}.");
+        }
     }
 }

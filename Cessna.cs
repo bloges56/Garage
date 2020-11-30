@@ -10,5 +10,10 @@ namespace Garage
         {
             Console.WriteLine($"The {MainColor} Cessna runs away.");
         }
+
+        public override void Turn(string direction)
+        {
+            Console.WriteLine($"Do a {direction} barrel role!");
+        }
     }
 }

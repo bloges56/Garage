@@ -35,9 +35,25 @@ namespace Garage
             };
 
             myRam.Drive();
+            myRam.Stop();
+            myRam.Turn("right");
+            Console.WriteLine();
+
             myTesla.Drive();
+            myTesla.Stop();
+            myTesla.Turn("right");
+            Console.WriteLine();
+
             myCessna.Drive();
+            myCessna.Stop();
+            myCessna.Turn("right");
+            Console.WriteLine();
+
             myZero.Drive();
+            myZero.Stop();
+            myZero.Turn("right");
+            Console.WriteLine();
+
         }
     }
 }
