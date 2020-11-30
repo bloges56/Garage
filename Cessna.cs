@@ -6,9 +6,14 @@ namespace Garage
     {
         public double FuelCapacity { get; set; }
 
-        public void RefuelTank()
+        public override void Drive()
         {
-            // method definition omitted
+            Console.WriteLine($"The {MainColor} Cessna runs away.");
+        }
+
+        public override void Turn(string direction)
+        {
+            Console.WriteLine($"Do a {direction} barrel role!");
         }
     }
 }

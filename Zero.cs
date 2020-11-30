@@ -6,9 +6,14 @@ namespace Garage
     {
         public double BatteryKWh { get; set; }
 
-        public void ChargeBattery()
+         public override void Drive()
         {
-            // method definition omitted
+            Console.WriteLine($"The {MainColor} Zero darts away.");
+        }
+
+        public override void Turn(string direction)
+        {
+            Console.WriteLine($"The motorcycle drifts to the {direction}.");
         }
     }
 }
