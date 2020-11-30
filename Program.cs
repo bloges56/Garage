@@ -33,6 +33,11 @@ namespace Garage
                 MaximumOccupancy = 2,
                 BatteryKWh = 80
             };
+
+            myRam.Drive();
+            myTesla.Drive();
+            myCessna.Drive();
+            myZero.Drive();
         }
     }
 }
